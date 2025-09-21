@@ -1,0 +1,154 @@
+@import "./base.css";
+@import "./fonts.css";
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.header.scrolled {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+}
+
+.logo {
+    position: absolute;
+    top: calc(100% - 8px);
+    left: 24px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.logo.hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li {
+    width: 100%;
+    height: 100%;
+}
+
+.nav ul li a {
+    background-color: #FDFE00;
+    width: 100%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.nav ul li:first-child a {
+    background-color: #E8880F;
+}
+
+.nav ul li:nth-child(2) a {
+    background-color: #0125AD;
+}
+
+.nav ul li:nth-child(3) a {
+    background-color: #0CAD39;
+}
+
+.nav ul li:nth-child(4) a {
+    background-color: #AD7701;
+}
+
+.nav ul li:nth-child(5) a {
+    background-color: #C70FE9;
+}
+
+.nav ul li:nth-child(6) a {
+    background-color: #01B4AE;
+}
+
+.nav ul li:nth-child(7) a {
+    background-color: #E70130;
+}
+
+.menu {
+    background-color: #000000;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.menu-left, .menu-right {
+    display: flex;
+}
+
+.menu-left {
+    align-items: center;
+    gap: 40px;
+}
+
+.lang {
+    display: flex;
+    gap: 8px;
+}
+
+.lang li {
+    font-size: 12px;
+    color: #ABABAB;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lang li.active {
+    color: #585858;
+    text-decoration: none;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list li {
+    width: 100%;
+    height: 100%;
+    margin-right: 16px;
+}
+
+.menu-list li a {
+    font-size: 13px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.menu-list li a.active {
+    color: #585858;
+}
+
+.menu-right {
+    align-items: center;
+}
+
+.login {
+    margin-right: 16px;
+}
+
+.registration {
+    background-color: #585858;
+    padding: 8px;
+}
+
+.login span, .registration span {
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
