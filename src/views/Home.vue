@@ -33,8 +33,10 @@ export default {
 <template>
     <section class="hero" id="hero">
         <swiper :modules="modules" :pagination="{ clickable: true }"  @swiper="onSwiper" @slideChange="onSlideChange" autoplay class="hero-slider" >
-            <swiper-slide class="heroslider-item">
-                <img src="../assets/img/coming-soon.png" alt="" />
+            <swiper-slide>
+                <div class="hero-slider-item">
+                    <img src="../assets/img/coming-soon.png" alt="" />
+                </div>
             </swiper-slide>
         </swiper>
 
