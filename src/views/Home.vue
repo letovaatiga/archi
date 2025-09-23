@@ -157,7 +157,7 @@ export default {
         </swiper>
     </section>
     
-    <section class="furniture-section">
+    <section class="section-furniture">
         <div class="anchor" id="furniture"></div>
 
         <div class="section-title">
