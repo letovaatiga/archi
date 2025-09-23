@@ -1,4 +1,6 @@
 <script setup>
+import IconInstagram from "../icons/InstagramIcon.vue";
+
 import { ref, onMounted, onUnmounted } from "vue";
 
 const hideLogo = ref(false);
@@ -30,7 +32,7 @@ onUnmounted(() => {
         <nav class="nav">
             <ul>
                 <li>
-                    <router-link to="/#stroyka">большая стройка</router-link>
+                    <router-link to="/#hero">большая стройка</router-link>
                 </li>
                 <li>
                     <router-link to="/#">интерьер</router-link>
@@ -86,7 +88,11 @@ onUnmounted(() => {
                     <span>регистрация</span>
                 </div>
 
-                <div class="socials"></div>
+                <div class="socials">
+                    <a href="https://www.instagram.com/archi.baku/" target="_blank">
+                        <IconInstagram />
+                    </a>
+                </div>
             </div>
         </div>
     </div>
