@@ -41,7 +41,7 @@ onUnmounted(() => {
                     <router-link to="/#">ландшафт</router-link>
                 </li>
                 <li>
-                    <router-link to="/#">мебель</router-link>
+                    <router-link to="/#furniture">мебель</router-link>
                 </li>
                 <li>
                     <router-link to="/#">декор</router-link>

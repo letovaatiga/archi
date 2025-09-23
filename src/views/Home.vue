@@ -31,7 +31,9 @@ export default {
 </script>
 
 <template>
-    <div class="hero" id="hero">
+    <div class="hero">
+        <div class="anchor" id="hero"></div>
+        
         <swiper :modules="modules" :pagination="{ clickable: true }" :slides-per-view="1" @swiper="onSwiper" @slideChange="onSlideChange" autoplay class="hero-slider" >
             <swiper-slide>
                 <div class="hero-slider-item">
@@ -54,7 +56,9 @@ export default {
         </div>
     </div>
 
-    <section class="interior-section" id="interior">
+    <section class="interior-section">
+        <div class="anchor" id="interior"></div>
+
         <div class="section-title">
             <span>Интерьер</span>
         </div>
@@ -139,6 +143,107 @@ export default {
                     </a>
                     <div class="section-slider-item-text">
                         <div>Aston Louis</div>
+                        <ul>
+                            <li>
+                                <a href=""><IconInstagram /></a>
+                            </li>
+                            <li>
+                                <a href=""><IconWP /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </swiper-slide>
+        </swiper>
+    </section>
+    
+    <section class="furniture-section">
+        <div class="anchor" id="furniture"></div>
+
+        <div class="section-title">
+            <span>Мебель</span>
+        </div>
+
+        <swiper :modules="modules" :slides-per-view="4" :space-between="24" navigation @swiper="onSwiper" @slideChange="onSlideChange" class="section-slider">
+            <swiper-slide>
+                <div class="section-slider-item">
+                    <a href="">
+                        <img src="../assets/img/image-1.png" alt="" />
+                    </a>
+                    <div class="section-slider-item-text">
+                        <div>Lorem Ipsum Dolor</div>
+                        <ul>
+                            <li>
+                                <a href=""><IconInstagram /></a>
+                            </li>
+                            <li>
+                                <a href=""><IconWP /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </swiper-slide>
+            <swiper-slide>
+                <div class="section-slider-item">
+                    <a href="">
+                        <img src="../assets/img/image-1.png" alt="" />
+                    </a>
+                    <div class="section-slider-item-text">
+                        <div>Lorem Ipsum Dolor</div>
+                        <ul>
+                            <li>
+                                <a href=""><IconInstagram /></a>
+                            </li>
+                            <li>
+                                <a href=""><IconWP /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </swiper-slide>
+            <swiper-slide>
+                <div class="section-slider-item">
+                    <a href="">
+                        <img src="../assets/img/image-1.png" alt="" />
+                    </a>
+                    <div class="section-slider-item-text">
+                        <div>Lorem Ipsum Dolor</div>
+                        <ul>
+                            <li>
+                                <a href=""><IconInstagram /></a>
+                            </li>
+                            <li>
+                                <a href=""><IconWP /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </swiper-slide>
+            <swiper-slide>
+                <div class="section-slider-item">
+                    <a href="">
+                        <img src="../assets/img/image-1.png" alt="" />
+                    </a>
+                    <div class="section-slider-item-text">
+                        <div>Lorem Ipsum Dolor</div>
+                        <ul>
+                            <li>
+                                <a href=""><IconInstagram /></a>
+                            </li>
+                            <li>
+                                <a href=""><IconWP /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </swiper-slide>
+            <swiper-slide>
+                <div class="section-slider-item">
+                    <a href="">
+                        <img src="../assets/img/image-1.png" alt="" />
+                    </a>
+                    <div class="section-slider-item-text">
+                        <div>Lorem Ipsum Dolor</div>
                         <ul>
                             <li>
                                 <a href=""><IconInstagram /></a>

@@ -3,8 +3,8 @@
 
 :root {
     --color-interior: #0125AD;
-  }
-  
+    --color-furniture: #AD7701;
+}  
 
 .header {
     width: 100%;
@@ -70,7 +70,7 @@
 }
 
 .nav ul li:nth-child(4) a {
-    background-color: #AD7701;
+    background-color: var(--color-furniture);
 }
 
 .nav ul li:nth-child(5) a {
@@ -244,9 +244,18 @@
 }
 
 section {
-    margin-bottom: 124px;
+    margin-bottom: 40px;
     padding: 0 16px;
 }
+
+.anchor {
+    display: block;
+    height: 84px;
+    margin-top: -84px;
+    visibility: hidden;
+    pointer-events: none;
+}
+  
 
 .section-title {
     background-color: #585858;
@@ -319,6 +328,9 @@ section {
     transition: .3s ease transform;
 }
 
+.section-furniture .section-title {
+    background-color: var(--color-furniture);
+}
 
 
 
