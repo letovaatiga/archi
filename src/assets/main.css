@@ -374,7 +374,7 @@ section {
 }
 
 .contact-section {
-    margin-bottom: 56px;
+    margin-bottom: 40px;
     display: grid;
     grid-template-columns: 70% 30%;
     gap: 24px;
@@ -388,6 +388,7 @@ section {
 
 .contact-section-block--text p {
     font-size: 20px;
+    font-weight: 500;
     text-align: center;
     line-height: 28px;
 }
@@ -416,7 +417,6 @@ section {
     height: 100%;
 }
 /*  */
-
 
 
 
