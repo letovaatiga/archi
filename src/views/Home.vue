@@ -45,10 +45,10 @@ export default {
         <div class="archi-instagram">
             <img src="../assets/img/avatar.png" class="archi-instagram-avatar" alt="" />
             <img src="../assets/img/archi-qr.png" class="archi-instagram-qr" alt="" />
-            <div class="archi-instagram-phone">
+            <a href="tel:+994 55 533-15-53" class="archi-instagram-phone">
                 <IconWP />
-                <a href="tel:+994 55 533-15-53">+994 55 533-15-53</a>
-            </div>
+                <span>+994 55 533-15-53</span>
+            </a>
         </div>
 
         <div class="hero-banner">
@@ -60,7 +60,7 @@ export default {
         <div class="anchor" id="interior"></div>
 
         <div class="section-title">
-            <span>Интерьер</span>
+            <h2>Интерьер</h2>
         </div>
 
         <swiper :modules="modules" :slides-per-view="4" :space-between="24" navigation @swiper="onSwiper" @slideChange="onSlideChange" class="section-slider">
@@ -157,11 +157,11 @@ export default {
         </swiper>
     </section>
     
-    <section class="section-furniture">
+    <section class="furniture-section">
         <div class="anchor" id="furniture"></div>
 
         <div class="section-title">
-            <span>Мебель</span>
+            <h2>Мебель</h2>
         </div>
 
         <swiper :modules="modules" :slides-per-view="4" :space-between="24" navigation @swiper="onSwiper" @slideChange="onSlideChange" class="section-slider">
@@ -257,4 +257,39 @@ export default {
             </swiper-slide>
         </swiper>
     </section>
+
+    <section class="about-section">
+        <div class="about-section-item">
+            <div class="about-section-banner">
+                <img src="" alt="" />
+            </div>
+
+            <div class="partners-block">
+                <h6>Наши партнеры</h6>
+
+                <div class="placeholder"></div>
+            </div>
+        </div>
+
+        <div class="about-section-item">
+            <h6>Самое интересное в блоге</h6>
+
+            <div class="blog-block"></div>
+        </div>
+    </section>
+
+    <div class="contact-section">
+        <div class="contact-section-block">
+            <div class="contact-section-block--text">
+                <p>Контакт для связи заказать проект.</p>
+                <p>Никаких мейлов, форм - просто wp</p>
+            </div>
+            
+            <a href="tel:+994 55 533-15-53" class="contact-section-block--phone">
+                <IconWP />
+                <span>+994 55 533-15-53</span>
+            </a>
+        </div>
+        <div class="contact-section-block"></div>
+    </div>
 </template>  
