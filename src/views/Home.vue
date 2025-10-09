@@ -260,8 +260,11 @@ export default {
 
     <section class="about-section">
         <div class="about-section-item">
-            <div class="about-section-banner">
-                <img src="" alt="" />
+            <div class="about-section-banner" style="background-color: white;">
+                <a href="">
+                    <img src="" alt="" />
+                    <p style="color: black;"></p>
+                </a>
             </div>
 
             <div class="partners-block">
