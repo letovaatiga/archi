@@ -65,29 +65,28 @@ onUnmounted(() => {
 
                 <ul class="menu-list">
                     <li>
-                        <router-link to="">главная</router-link>
+                        <router-link :to="{ name: 'home' }">главная</router-link>
                     </li>
-                    <li>
+                    <!-- <li>
                         <router-link to="">статьи</router-link>
-                    </li>
+                    </li> -->
                     <li>
-                        <router-link to="">студия</router-link>
+                        <router-link :to="{ name: 'about' }">студия</router-link>
                     </li>
-                    <li>
+                    <!-- <li>
                         <router-link to="">магазины</router-link>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
 
             <div class="menu-right">
-                <div class="login">
+                <!-- <div class="login">
                     <span>логин</span>
-                </div>
-
-                <div class="registration">
+                </div> -->
+                
+                <!-- <div class="registration">
                     <span>регистрация</span>
-                </div>
-
+                </div> -->
                 <div class="socials">
                     <a href="https://www.instagram.com/archi.baku/" target="_blank">
                         <IconInstagram />

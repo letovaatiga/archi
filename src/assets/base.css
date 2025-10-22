@@ -1,3 +1,13 @@
+:root {
+    --color-main: #FDFE00;
+    --color-interior: #0125AD;
+    --color-landscape: #0CAD39;
+    --color-furniture: #AD7701;
+    --color-decor: #C70FE9;
+    --color-new: #01B4AE;
+    --color-sales: #E70130;
+}
+
 *,
 *::before,
 *::after {

@@ -43,7 +43,9 @@ export default {
         </swiper>
 
         <div class="archi-instagram">
-            <img src="../assets/img/avatar.png" class="archi-instagram-avatar" alt="" />
+            <a href="https://www.instagram.com/archi.baku/" target="_blank">
+                <img src="../assets/img/avatar.png" class="archi-instagram-avatar" alt="" />
+            </a>
             <img src="../assets/img/archi-qr.png" class="archi-instagram-qr" alt="" />
             <a href="tel:+994 55 533-15-53" class="archi-instagram-phone">
                 <IconWP />
@@ -63,7 +65,7 @@ export default {
             <h2>Интерьер</h2>
         </div>
 
-        <swiper :modules="modules" :slides-per-view="4" :space-between="24" navigation @swiper="onSwiper" @slideChange="onSlideChange" class="section-slider">
+        <swiper :modules="modules" :slides-per-view="1" :space-between="24" navigation @swiper="onSwiper" @slideChange="onSlideChange" :breakpoints="{ 577: { slidesPerView: 2 }, 993: { slidesPerView: 3 }, 1281: { slidesPerView: 4 } }" class="section-slider">
             <swiper-slide>
                 <div class="section-slider-item">
                     <a href="">
@@ -164,7 +166,7 @@ export default {
             <h2>Мебель</h2>
         </div>
 
-        <swiper :modules="modules" :slides-per-view="4" :space-between="24" navigation @swiper="onSwiper" @slideChange="onSlideChange" class="section-slider">
+        <swiper :modules="modules" :slides-per-view="1" :space-between="24" navigation @swiper="onSwiper" @slideChange="onSlideChange" :breakpoints="{ 577: { slidesPerView: 2 }, 993: { slidesPerView: 3 }, 1281: { slidesPerView: 4 } }" class="section-slider">
             <swiper-slide>
                 <div class="section-slider-item">
                     <a href="">
